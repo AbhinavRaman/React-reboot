@@ -1,0 +1,10 @@
+html, body{
+    background-color: #111;
+}
+.main{
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+}

@@ -1,0 +1,35 @@
+.card{
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.imgdiv{
+    width: 200px;
+    height: 200px;       /* SAME as width */
+    margin: 0 auto;
+    overflow: hidden;    /* VERY IMPORTANT */
+    border-radius: 50%;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h1{
+    margin: 5%;
+}
+
+.card button{
+    border-radius: 25px;
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    cursor: pointer;
+}
